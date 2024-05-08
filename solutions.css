@@ -60,3 +60,14 @@
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+
+
+/* ESERCIZIO 7 */
+
+.ex-7-img {
+    transition: all 1s ease;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%) brightness(120%);
+}
