@@ -1,5 +1,4 @@
 /* ESERCIZIO 1 */
-
 .ex-1-square {
     transition: all 2s ease-out;
 }
@@ -9,3 +8,13 @@
     background-color: red;
 }
 
+
+
+/* ESERCIZIO 2 */
+.ex-2-square {
+    transition: all 2s ease-out;    
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
