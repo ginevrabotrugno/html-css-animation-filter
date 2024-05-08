@@ -85,3 +85,14 @@
 }
 
 
+/* ESERCIZIO 9 */
+
+.ex-9-img {
+    transition: all 1.5s ease-in;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(80%) brightness(120%);
+    transform: scale(1.5);
+}
