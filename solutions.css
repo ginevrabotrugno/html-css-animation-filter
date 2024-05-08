@@ -29,6 +29,7 @@
     border-radius: 50%;
 }
 
+
 /* ESERCIZIO 4 */
 .ex-4-square {
     transition: all 1s ease-in-out;
@@ -36,6 +37,20 @@
 
 .ex-4-square:hover {
     background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* ESERCIZIO 5 */
+.ex-5-square {
+    transition: all 1s ease;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);            
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
 }
 
 
