@@ -96,3 +96,16 @@
     filter: grayscale(80%) brightness(120%);
     transform: scale(1.5);
 }
+
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon {
+    animation: circle 1s linear infinite ;
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(1turn);
+    }
+}
