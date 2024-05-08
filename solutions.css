@@ -198,9 +198,9 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: button-bottom 5s linear;
+    animation: bottom-13 5s linear;
 }
-@keyframes button-bottom {
+@keyframes bottom-13 {
     0% {
         bottom: -10px;
         right: 20%;
