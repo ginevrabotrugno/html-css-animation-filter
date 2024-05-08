@@ -101,11 +101,31 @@
 /* ESERCIZIO 10 */
 
 .ex-10-icon {
-    animation: circle 1s linear infinite ;
+    animation: circle-one 1s linear infinite ;
 }
 
-@keyframes circle {
+@keyframes circle-one {
     0% {
         transform: rotate(1turn);
+    }
+}
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon:hover {
+    animation: circle-two 2s linear;
+}
+
+@keyframes circle-two {
+    0% {
+        transform: rotate(0);
+    }
+
+    90% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0);
     }
 }
